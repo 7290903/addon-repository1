@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 echo "🧹 Очистка временных файлов..."
 rm -f /tmp/haproxy.cfg
 
@@ -26,7 +29,17 @@ export PORT
 export BROKER_SERVERS
 
 envsubst < /haproxy.tpl.cfg > /tmp/haproxy.cfg
+
+echo "📄 Сгенерированная конфигурация:"
 cat /tmp/haproxy.cfg
 
-echo "🚀 Запуск HAProxy..."
-haproxy -f /tmp/haproxy.cfg
+# === Способ 1: запуск напрямую с указанием конфига ===
+echo "🚀 Запуск HAProxy с конфигом /tmp/haproxy.cfg..."
+exec haproxy -f /tmp/haproxy.cfg
+
+# === Способ 2 (если нужно именно в стандартное место): ===
+# mkdir -p /usr/local/etc/haproxy
+# cp /tmp/haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
+# echo "🚀 Запуск HAProxy с конфигом из /usr/local/etc/haproxy/haproxy.cfg..."
+# exec haproxy
+
