@@ -1,6 +1,6 @@
 # HAProxy MQTT Failover Add-on for Home Assistant
 
-![HAProxy MQTT Failover](/haproxy_mqtt_failover/icon.png)
+![HAProxy MQTT Failover](https://github.com/7290903/addon-repository1/tree/main/haproxy_mqtt_failover/icon.png)
 
 ## 📦 Описание
 
