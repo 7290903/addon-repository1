@@ -38,7 +38,7 @@
 
 Добавьте изображение, показывающее, как выглядит UI аддона. Пример:
 
-![UI Screenshot](/haproxy_mqtt_failover/options.png)
+![UI Screenshot](https://github.com/7290903/addon-repository1/tree/main/haproxy_mqtt_failover/options.png)
 
 
 ---
