@@ -11,8 +11,8 @@ RUN apt-get update && \
 COPY run.sh /run.sh
 COPY haproxy.tpl.cfg /haproxy.tpl.cfg
 
-USER root
-
 RUN chmod +x /run.sh
+
+USER root
 
 CMD ["/run.sh"]
