@@ -38,7 +38,7 @@
 
 Добавьте изображение, показывающее, как выглядит UI аддона. Пример:
 
-![UI Screenshot](/options.png)
+![UI Screenshot](//options.png)
 
 
 ---
