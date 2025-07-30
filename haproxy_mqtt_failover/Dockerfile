@@ -8,5 +8,5 @@ COPY haproxy.tpl.cfg /haproxy.tpl.cfg
 
 USER root
 
-ENTRYPOINT ["/run.sh"]
+RUN chmod +x /run.sh
 
