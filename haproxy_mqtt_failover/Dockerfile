@@ -7,7 +7,7 @@ USER root
 # Устанавливаем зависимости и yq для текущей архитектуры
 RUN set -ex && \
     apt-get update && \
-    apt-get install -y curl jq ca-certificates && \
+    apt-get install -y curl jq gettext ca-certificates && \
     ARCH="$(uname -m)" && \
     case "$ARCH" in \
       aarch64)  YQ_BIN="yq_linux_arm64" ;; \
