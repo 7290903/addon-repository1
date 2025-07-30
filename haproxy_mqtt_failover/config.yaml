@@ -1,0 +1,14 @@
+name: HAProxy MQTT Failover
+description: TCP-фейловер между MQTT-брокерами через HAProxy
+version: "1.0.0"
+slug: haproxy_mqtt_failover
+init: false
+hassio_api: false
+hassio_role: default
+apparmor: false
+boot: auto
+host_network: true
+startup: services
+map:
+  - config:rw
+tmpfs: true
