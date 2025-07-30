@@ -1,6 +1,6 @@
 # HAProxy MQTT Failover Add-on for Home Assistant
 
-![HAProxy MQTT Failover](images/screenshot.png)
+![HAProxy MQTT Failover](/haproxy_mqtt_failover/icon.png)
 
 ## 📦 Описание
 
@@ -38,7 +38,7 @@
 
 Добавьте изображение, показывающее, как выглядит UI аддона. Пример:
 
-![UI Screenshot](/options.png)
+![UI Screenshot](/haproxy_mqtt_failover/options.png)
 
 
 ---
@@ -53,7 +53,7 @@
 ## 🧠 Автор
 
 Разработано RunHouse для использования в системах умного дома.  
-GitHub: [https://github.com/RunHouse]([https://github.com/RunHouseTech](https://github.com/7290903/addon-repository1))
+GitHub: (RunHouse([https://github.com/7290903/addon-repository1]))
 
 ---
 
