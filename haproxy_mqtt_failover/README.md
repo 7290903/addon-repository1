@@ -53,7 +53,7 @@
 ## 🧠 Автор
 
 Разработано RunHouse для использования в системах умного дома.  
-GitHub: [RunHouse]([https://github.com/7290903/addon-repository1])
+GitHub: ([RunHouse]([https://github.com/7290903/addon-repository1]))
 
 ---
 
